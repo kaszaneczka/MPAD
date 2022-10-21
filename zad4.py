@@ -63,6 +63,7 @@ x = []
 tab_pomoc = ['a-tak,p-tak','a-tak,p-nie','a-tak,p-brak','a-nie,p-tak','a-nie,p-nie','a-nie,a-brak',
              'a-brak,p-tak','a-brak,p-nie','a-brak,p-brak']
 plt.figure()
+plt.title('najpierw alarm później szczekanie')
 for a in lista:
     for b in lista:
         zad4.bayes1('alarmpies', a, b, 0.01, 0.5, 0.8, 0.98, 0.002)
@@ -76,6 +77,7 @@ print(x)
 
 x = []
 plt.figure()
+plt.title('najpierw szczekanie pozniej alarm')
 for a in lista:
     for b in lista:
         zad4.bayes1('piesalarm', a, b, 0.01, 0.5, 0.8, 0.98, 0.002)
