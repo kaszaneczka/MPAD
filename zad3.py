@@ -36,3 +36,5 @@ for i in pcl:
 
 plt.show()
 
+#ponieważ licznik musi byc mniejszy od mianownika w równaniu bayesa
+#czyli (p(c|l)*p(c)> p(l))) inaczej prawdopodobienstwo wychodzi >=1
