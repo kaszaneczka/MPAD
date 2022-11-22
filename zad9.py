@@ -25,6 +25,7 @@ if __name__ == '__main__':
         obs = pm.Normal("obs", mu=mean, sd=std, observed=data[:,1])
         idata = pm.sample(2000, tune=2500)
     az.plot_trace(idata, show=True)
+    #sad
 
 
 
